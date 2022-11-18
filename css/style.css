@@ -1,0 +1,87 @@
+/* Nav */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 4.4rem;
+  background-color: #d9efff;
+  padding: 1.5% 1%;
+}
+
+.header-logo {
+  display: flex;
+  width: 26rem;
+  gap: 2rem;
+}
+
+.logo {
+  display: inline-block;
+  height: 3.6rem;
+  width: 3.6rem;
+
+  stroke: #343a40;
+  color: #343a40;
+
+  margin-right: 1%;
+}
+
+.main-title {
+  display: inline-block;
+
+  color: #343a40;
+  font-size: 3.6rem;
+}
+
+/* Main */
+.container {
+  width: 100%;
+  /* padding-top: 56.25%; */
+  height: 95vh;
+
+  /* background-image: url("img/background-clouds.jpg"); */
+  background: rgb(213, 237, 255);
+  background-size: 100%;
+  background: linear-gradient(
+    153deg,
+    rgba(213, 237, 255, 1) 0%,
+    rgba(222, 241, 255, 0.6839110644257703) 45%,
+    rgba(187, 212, 230, 1) 100%
+  );
+}
+
+.header-options {
+  display: flex;
+}
+
+.header-ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.header-btn {
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 0 0.3rem;
+  border: 0.2rem solid #bbd4e6;
+  background-color: #def1ff;
+  cursor: pointer;
+}
+
+/* .form-label {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #2a2f33;
+} */
+
+.form-input {
+  padding: 1rem;
+  border: 0.2rem solid #bbd4e6;
+}
+
+.form-input:focus {
+  background-color: #def1ff;
+}
